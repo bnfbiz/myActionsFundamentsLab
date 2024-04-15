@@ -69,3 +69,4 @@ For this workshop you need the following:
 Find common terminology for reference [here](./CheatSheet.md)
 
 - initial change which will trigger a build.
+- this will skip the build due to [skip ci] in commit summary
