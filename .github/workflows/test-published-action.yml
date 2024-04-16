@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
-        uses: bnfbiz/hello-world-docker-action@v1
+        uses: bnfbiz/hello-world-docker-action@v1.0.1
         with:
           who-to-greet: '@octocat'
           
