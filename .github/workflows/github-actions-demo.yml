@@ -51,7 +51,7 @@ jobs:
     environment: 
       name: Production
       url: https://writeabout.net
-    if: inputs.environment == 'Production'
+    if: ${{ github.event.inputs.environment == 'Production' }}
     #if: github.event.inputs.environment == 'Production'
     steps:
       - run: |
