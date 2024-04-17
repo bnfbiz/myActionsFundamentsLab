@@ -2,7 +2,7 @@ name: Reuse other workflow
 
 on: [workflow_dispatch]
 jobs:
-  call-workflow:
+  some-name:
     uses: ./.github/workflows/reusable.yml
     with:
       who-to-greet: '@octocat'
